@@ -35,7 +35,7 @@
 <link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="github,hexo,感想," />
 
 
 
@@ -51,16 +51,22 @@
 
 
 
-<meta name="description">
+<meta name="description" content="###起源年轻人嘛，总爱折腾，一颗年轻的心躁动不安，总觉得应该要做些什么。所以就搭个博客来玩玩，至于最初的动机还真没什么。我说是因为一首诗你信么？言归正传，我想这些天犯的一些错误以及积累的些许经验对于初学者来说还是或多或少有那么一些帮助的，所以想搭静态博客的宝宝们可以好好看看我的这篇文章，谨以此文纪念我那些年犯过的傻以及鸣谢我的好基友：莫利斯安
+
+###第一坑——动手前弄清思路对于一些初学者来说总">
 <meta property="og:type" content="article">
 <meta property="og:title" content="FIRST BLOOD!!">
 <meta property="og:url" content="http://yoursite.com/2015/12/07/FIRST-BLOOD/index.html">
 <meta property="og:site_name" content="COLINA">
-<meta property="og:description">
-<meta property="og:updated_time" content="2015-12-07T12:12:06.026Z">
+<meta property="og:description" content="###起源年轻人嘛，总爱折腾，一颗年轻的心躁动不安，总觉得应该要做些什么。所以就搭个博客来玩玩，至于最初的动机还真没什么。我说是因为一首诗你信么？言归正传，我想这些天犯的一些错误以及积累的些许经验对于初学者来说还是或多或少有那么一些帮助的，所以想搭静态博客的宝宝们可以好好看看我的这篇文章，谨以此文纪念我那些年犯过的傻以及鸣谢我的好基友：莫利斯安
+
+###第一坑——动手前弄清思路对于一些初学者来说总">
+<meta property="og:updated_time" content="2015-12-08T12:32:17.872Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="FIRST BLOOD!!">
-<meta name="twitter:description">
+<meta name="twitter:description" content="###起源年轻人嘛，总爱折腾，一颗年轻的心躁动不安，总觉得应该要做些什么。所以就搭个博客来玩玩，至于最初的动机还真没什么。我说是因为一首诗你信么？言归正传，我想这些天犯的一些错误以及积累的些许经验对于初学者来说还是或多或少有那么一些帮助的，所以想搭静态博客的宝宝们可以好好看看我的这篇文章，谨以此文纪念我那些年犯过的傻以及鸣谢我的好基友：莫利斯安
+
+###第一坑——动手前弄清思路对于一些初学者来说总">
 
 
 
@@ -225,11 +231,43 @@
       
 
       
-        <span itemprop="articleBody"></span>
+        <span itemprop="articleBody"><p>###<strong>起源</strong><br>年轻人嘛，总爱折腾，一颗年轻的心躁动不安，总觉得应该要做些什么。所以就搭个博客来玩玩，至于最初的动机还真没什么。我说是因为一首诗你信么？言归正传，我想这些天犯的一些错误以及积累的些许经验对于初学者来说还是或多或少有那么一些帮助的，所以想搭静态博客的宝宝们可以好好看看我的这篇文章，谨以此文纪念我那些年犯过的傻以及鸣谢我的好基友：<a href="dadada.cf">莫利斯安</a></p>
+<hr>
+<p>###<strong>第一坑——动手前弄清思路</strong><br>对于一些初学者来说总是拿着一篇教程就上手，总觉得自己对着教程肯定不会出错，对于自己明不明白个中缘由并不关心，只要达到效果就行。对于这些我想说的是，NO！假如你想做一件事，你在做它之前一定是想好你为什么要去做，该怎样去做，尽量细化到每一个细节，多思考一些时间是有益处的。<br>大致思路可以这样理解，我们在github虚拟服务器上构建一个“仓库”，在本地写好博客，然后把本地写好的博客推送到那个“仓库”里供别人浏览。</p>
+<p>github端:<br>hexo搭建非常简单，简单的几条命令完事。在hexo的官网有灰常灰常详细的命令使用和解说。<br>本地客户端：<br>因为我们需要同步工具，即把博文推送到服务器上。所以我们用git。简单一条命令</p>
+<blockquote>
+<p>$ hexo d -fg</p>
+</blockquote>
+<p>就能将本地同步到github的服务器端。</p>
+<hr>
+<p>###<strong>第二坑——搭建过程</strong><br>我一开始搭建这个博客是比较懵逼的，啥都不会，白手起家，跌跌撞撞。现在回过头来看其过程可以大致分为以下几个部分：</p>
+<p><strong>1.</strong> 安装<code>node.js</code><br><strong>2.</strong> 利用<code>node.js</code>的<code>npm</code>命令安装<code>hexo</code><br><strong>3.</strong> 安装<code>git</code><br><strong>4.</strong> 添加已经申请好的域名。关于域名，可以申请免费的域名<code>.tk</code>或者是<code>.cf</code>。</p>
+<p>对于hexo，本人建议可以多看看hexo的官网上的详细介绍。比如<a href="http://dadada.cf/2015/11/First-Blood.html" target="_blank" rel="external">凡哥</a>写的就很不错~~</p>
+<hr>
+<p>###<strong>第三坑——搭建仓库时遇到的问题</strong></p>
+<p>一步步走过来，本来以为搭建博客是手到擒来的事，入手之后才发现其个中辛苦真的只有体会了才知道。<br> 我的本地端搭建的挺完美的，但是在github搭建<code>.io</code>仓库时却遇到了一些问题。我在github上注册是用户名是neuqxiaojunzi，但是我的仓库名却是neuqxjxiaojunzi。之后还用了什么text之类的仓库名，但是每次搭建仓库的时候都会报错。后来才发现仓库名必须和注册的用户名一致，知道真相的我眼泪掉下来啊，被自己蠢哭了有木有。</p>
+<hr>
+<p> ###<strong>第四坑——关于域名CNAME方法的一些见解</strong></p>
+<p> 关于添加域名我当初使用的是直接在<code>.io</code>仓库里面添加一个CNAME文件，但是后来发现每次从本地上传同步更新到仓库的时候，CNAME文件都会被自动删除，所以选择了一种每次从本地上传到仓库的办法：在source文件夹下面添加CNAME文件。</p>
+<p> ###<strong>总结</strong><br> 这些天走过来真的发现自己走了好多好多的坑，也撞了好多好多的墙，大多是因为自己没理解其中的缘由，真的明白之后就算暂时失去方向也会立马重归正途。<br> 刚开始为了搭建这个博客存粹是为了了解了解，写写近期失恋的感伤，哪知道一入博客深似海，入坑之后难回头。经过好几天的奋战以及无数撞墙式的摸索以及<a href="http://weibo.com/u/5348961169" target="_blank" rel="external">凡哥</a>，终于算是差不多搞好了。（回想起这几天的过程，真的是有些哔狗。。。。。）</p>
+<p>额，接下俩的工作就是改改主题，经常写写文章啦~~</p>
+<hr>
+<p>作者：colina<br>2015 年 06月 15日 于东北大学图书馆阅览室   </p>
+</span>
       
     </div>
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/github/" rel="tag">#github</a>
+          
+            <a href="/tags/hexo/" rel="tag">#hexo</a>
+          
+            <a href="/tags/感想/" rel="tag">#感想</a>
+          
+        </div>
       
 
       
@@ -310,7 +348,7 @@
 
           <div class="site-state-item site-state-tags">
             <a href="/tags">
-              <span class="site-state-item-count">0</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">标签</span>
               </a>
           </div>
